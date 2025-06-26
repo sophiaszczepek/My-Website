@@ -5,14 +5,16 @@
 }
 
 .hero {
+  max-width: 1000px;
   display: flex;
   flex-direction: row; 
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap; 
 }
 
 .home-container {
-  max-width: 1000px;
+  max-width: 100vw;
   margin: 0 auto;
   padding-top: 50px;
 }
