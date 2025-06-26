@@ -42,15 +42,63 @@ background: linear-gradient(
     #8F2A5C 100%
   );
   background-repeat: no-repeat;
-
-  /* background-attachment: fixed;
-  background-size: cover;
-  margin: 0;
-  min-height: 100vh; */
 }
 
 html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+  }
+  .site-main {
+    margin-left: 0;   
+    padding: 1rem;
+  }
+
+  .hero-body {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-photo {
+    width: 200px;
+    height: 200px;
+    margin: 1rem 0;
+    margin-left: 0;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .project-card {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .contact-icons {
+    gap: 1.5rem;
+  }
+  .contact-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-title { font-size: 3rem; }
+  .project-card h2 { font-size: 1.25rem; }
+  .contact-title { font-size: 2rem; }
 }
