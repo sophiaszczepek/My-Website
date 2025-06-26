@@ -2,4 +2,4 @@ name               = "my-website"
 compatibility_date = "2025-06-26"
 workers_dev        = true
 
-assets = { directory = "./dist/my-portfolio" }
+assets = { directory = "dist/my-portfolio/browser" }
