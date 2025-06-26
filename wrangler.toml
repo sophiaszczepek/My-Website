@@ -1,0 +1,5 @@
+name               = "my-portfolio"
+compatibility_date = "2025-06-26"
+workers_dev        = true
+
+assets = { directory = "./dist/my-portfolio" }
