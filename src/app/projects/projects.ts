@@ -11,7 +11,7 @@ export class Projects {
   projects = [
     {
       title: 'Unix-like Operating System',
-      description: 'Includes a priority scheduler, FAT file system, and user-shell interactions.',
+      description: 'Includes a priority scheduler, FAT file system, and user-shell interactions. Written in C.',
       githubUrl: 'https://github.com/sophiaszczepek/'
     },
     {
